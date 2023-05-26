@@ -303,6 +303,8 @@ class CascadingHeads(nn.Module):
                 prev_attn = h_prev_attn
             )
 
+            prev_head_out = out
+
             all_outs.append(out)
             all_intermediates.append(intermediates)
 
